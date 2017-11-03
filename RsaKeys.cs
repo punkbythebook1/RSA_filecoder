@@ -9,8 +9,8 @@ namespace RSA_filecoder
     public class RsaKeys
     {
         private long N;
-        private long[] Keys;
-        private long p, q; 
+        private int[] Keys;
+        private int p, q; 
        public long PublicKey {
            get {
                return this.Keys[0];
