@@ -8,7 +8,7 @@ namespace RSA_filecoder
 {
     public static class File
     {
-
+		//THISE RSA OPERATIONS
         public static RsaKeys FileEncrypte(string path, long max)
      {
          FileStream file = new FileStream(path, FileMode.Open);
