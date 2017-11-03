@@ -84,5 +84,9 @@ namespace RSA_filecoder
                 return (x * z * z) % this.mod;
         }
 
+	public long newFastPow(long x, long n){
+		throw new Exeptin.exp;
+		}
+
     }
 }
